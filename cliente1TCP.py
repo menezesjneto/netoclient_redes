@@ -40,11 +40,9 @@ def file1():
 		if bytes("/!ENDFILE/", "utf-8") in data:
 			arq.write(data)
 			arq.close()
-			print("")
 			break
 		elif data == bytes("/!ENDFILE/", "utf-8"):
 			arq.close()
-			print("")
 			break
 		else:
 			arq.write(data)
@@ -62,11 +60,9 @@ def file2():
 		if bytes("/!ENDFILE/", "utf-8") in data:
 			arq.write(data)
 			arq.close()
-			print("")
 			break
 		elif data == bytes("/!ENDFILE/", "utf-8"):
 			arq.close()
-			print("")
 			break
 		else:
 			arq.write(data)
@@ -84,11 +80,9 @@ def file3():
 		if bytes("/!ENDFILE/", "utf-8") in data:
 			arq.write(data)
 			arq.close()
-			print("")
 			break
 		elif data == bytes("/!ENDFILE/", "utf-8"):
 			arq.close()
-			print("")
 			break
 		else:
 			arq.write(data)
